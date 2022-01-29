@@ -1,4 +1,4 @@
-source(here::here('R Scripts', 'spotify_credentials.R'))
+source(here::here('R Scripts', 'accessing_spotify_data.R'))
 
 #getting the username and playlist information so I can pull all the songs I want to analyze 
 #getting the audio playlist features so I can analyze those 
