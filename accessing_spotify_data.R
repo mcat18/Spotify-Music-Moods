@@ -18,10 +18,10 @@ client_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' #cannot display this informa
 
 #Accessing spotify data
 
-
 Sys.setenv(SPOTIFY_CLIENT_ID = client_id)
 Sys.setenv(SPOTIFY_CLIENT_SECRET = client_secret)
 get_spotify_authorization_code()
 
+#getting the username and playlist information so I can pull all the songs I want to analyze 
 playlist_username1 = 'xxxxxxx' #cannot display this information 
 playlist_uris4 = c('xxxxxxxxxxxxxxx') #cannot display this information 
