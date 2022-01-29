@@ -1,6 +1,6 @@
 source(here::here('R Scripts', 'accessing_spotify_data.R'))
 
-#getting the username and playlist information so I can pull all the songs I want to analyze 
+
 #getting the audio playlist features so I can analyze those 
 fave_songs_ever = get_playlist_audio_features(playlist_username1, playlist_uris4)
 
